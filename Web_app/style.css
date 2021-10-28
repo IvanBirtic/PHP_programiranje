@@ -1,0 +1,228 @@
+body, html {
+	font-family: 'futura', 'helvetica', sans-serif;
+	margin: 0;
+    font-size: 16px;
+    background-color: #80c1f3;
+}
+header {
+	display: block;
+	width: 100%;
+}
+.banner { 
+	background-image: url(img/banner.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 500px;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color:#235d89;
+}
+li {
+	float: left;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: #111;
+}
+
+
+h1,h2 {
+	margin: 8px;
+    font-size: 40px;
+    font-family: Times-new-roman;
+}
+h2 {
+	font-size: 24px;
+    color: #27318b;
+}
+main a {
+	color: #27318b;
+    text-decoration: none;
+}
+main a:hover {
+	color: #8b3727;
+    text-decoration: underline;
+}
+p {
+	margin: 24px;
+	line-height: 22.4px;
+    letter-spacing: 1px; 
+}    
+hr {
+	margin: 16px;
+	border: 1px dotted #27318b;
+    clear: both;
+}
+
+.novosti img {
+	width: 12%;
+	float: left;
+	padding: 8px;
+	margin: 0 16px 8px 8px;
+}
+.novosti h2 {
+	margin: 8px 11.2px;
+	font-size: 24px;
+	color: #27318b;
+}
+.novosti hr {
+	margin: 16px;
+	border: 1px dotted #27318b;
+	clear: both;
+}
+.novosti time {
+	font-size: 90%;
+	font-style: italic;
+}
+.description {
+	font-weight: bold;
+	margin: 12.8px 16px 24px 16px;
+}
+#novosti_galerija figure {
+	padding: 8px;
+	margin: 0 16px 8px 16px;
+	float: left;
+	width: 10%;
+	border: 1px solid black;
+}
+#novosti_galerija figcaption {
+	font-size: 90%;
+	text-align: center;
+}
+
+#galerija figure {
+	padding: 8px;
+	margin: 0 16px 8px 16px;
+	float: left;
+    width: 21%;
+	border: 1px solid black;
+}
+#galerija figcaption {
+	font-size: 90%;
+	height: 50px;
+    text-align: center;
+}
+figure {
+	padding: 8px;
+	margin: 0 16px 8px 16px;
+	float: left;
+	width: 35%;
+    border: 1px solid black;
+    font-weight:bold;
+    text-align: center;
+}
+figcaption {
+	font-size: 90%;
+}
+img {
+    width: 100%;
+
+}
+video {
+	margin: 0 18px 25px 18px;
+	float: left;
+}
+#contact {
+    margin: 16px
+    
+}
+label {
+	display: block; 
+}
+input[type=text], input[type=email], select, textarea {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+	font-family: 'futura', 'helvetica',, sans-serif;
+    font-size: 95%;
+    
+}
+
+input[type=submit] {
+    display: block;
+	background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	width: 25%; 
+}
+
+input[type=submit]:hover {
+    background-color: #45a049; 
+}
+@media screen and (max-width: 900px) {
+	figure {
+		width: 90%;
+		margin: 16px;
+    }
+
+    .novosti img {
+        width: 95%;
+        padding: 0.5em;
+        margin: 0 1em 0.5em 0.5em;
+    }
+    .novosti time {
+        margin: 0 0 0 1em;
+    }
+    #novosti_galerija figure {
+		padding: 8px;
+		margin: 0 8px 16px 8px;
+		float: left;
+		width: 90%;
+		border: 1px solid black;
+	}
+	#novosti_galerija figcaption {
+		font-size: 90%;
+		text-align: center;
+	}
+	#galerija figure {
+		padding: 8px;
+		margin: 0 16px 8px 16px;
+		float: left;
+		width: 40%;
+		border: 1px solid black;
+	}
+	#galerija figcaption {
+		font-size: 90%;
+		height: 70px;
+		text-align: center;
+	}
+    
+}
+
+footer {
+	background-color: #235d89;
+	padding: 1.6px;
+	clear: both;
+}
+footer p {
+	color: white;
+	text-align: center;
+	margin: 8px;
+}
+footer img {
+	width: 20px;
+}
+.dm {
+	
+	padding: 150px 0 0 0;
+	margin: 0px;
+}

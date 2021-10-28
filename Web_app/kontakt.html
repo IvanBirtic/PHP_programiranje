@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Alfej brodovi d.o.o.</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta name="description" content="Alfej brodovi i knjige Hrvatska">
+		<meta name="keywords" content="brodovi, alfej brodovi, more, rijeka, jezero, voda, knjige">
+		<meta name="author" content="Ivan Birtić">
+		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+        <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+        <link rel="stylesheet" href="style.css">
+	</head>
+<body>
+    <header>
+		<a href="index.html"><div class="banner"></div></a>
+		<nav>
+			<ul>
+			  <li><a href="index.html">Početna stranica</a></li>
+			  <li><a href="novosti.html">Novosti</a></li>
+			  <li><a href="kontakt.html">Kontakt</a></li>
+			  <li><a href="onama.html">O nama</a></li>
+			  <li><a href="galerija.html">Galerija</a></li>
+			</ul>
+		</nav>
+    </header>
+    <main>
+		<h1>Kontaktirajte nas</h1>
+		<div id="contact">
+			<iframe src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=Ku%C5%A1lanova%2010+(Ku%C5%A1lanova)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+			<form action="#" id="contact_form" name="contact_form" method="POST"><br/><br/><br/>
+				<label for="fname">Ime*</label>
+				<input type="text" id="fname" name="firstname" placeholder="Vaše ime..." required>
+
+				<label for="lname">Prezime*</label>
+				<input type="text" id="lname" name="lastname" placeholder="Vaše prezime.." required>
+				
+				<label for="lname">Elektronička adresa*</label>
+				<input type="email" id="email" name="email" placeholder="Vaša e-mail adresa..." required>
+
+				<label for="country">Država</label>
+				<select id="country" name="country">
+				  <option value="">Odaberite</option>
+				  <option value="BE">Belgija</option>
+				  <option value="HR" selected>Hrvatska</option>
+				  <option value="FR">Francuska</option>
+                  <option value="SRB">Srbija</option>
+                  <option value="BiH">Bosna i Hercegovina</option>
+                  <option value="CG">Crna Gora</option>
+                  <option value="MK">Makedonija</option>
+				</select>
+
+				<label for="subject">Opis</label>
+				<textarea id="subject" name="subject" placeholder="Ovdje upišite upit..." style="height:200px"></textarea>
+
+				<input type="submit" value="Submit">
+			</form>
+		</div>
+	</main>
+    <footer>
+		<p>© Ivan Birtić | SVA PRAVA PRIDRŽANA <a href="https://github.com/IvanBirtic?tab=repositories"target="_blank"><img src="img/github.png" title="Github" alt="Github"></a></p>
+	</footer>
+</body>
+</html>
